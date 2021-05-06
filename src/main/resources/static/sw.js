@@ -32,7 +32,7 @@ self.addEventListener('push', function (event) {
     }
 
     return self.registration.showNotification(title, {
-        body: 'Hello'
+        body: message
     });
 });
 
